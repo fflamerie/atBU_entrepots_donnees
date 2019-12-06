@@ -1,7 +1,5 @@
-
 # Zenodo, Figshare, etc.: rechercher et partager des données de recherche grâce aux entrepôts de données
 
-**Atelier des BU - 2019-2020**
 
 ## Sommaire
 
@@ -9,7 +7,7 @@
 
 - [Sommaire](#sommaire)   
 - [0. Que sont pour vous les "données de recherche"?](#0-que-sont-pour-vous-les-données-de-recherche)   
-- [1. Identifier et choisir les entrepôts de données pertinents pour son domaine de recherche <!--25 min-->](#1-identifier-et-choisir-les-entrepôts-de-données-pertinents-pour-son-domaine-de-recherche-25-min)   
+- [1. Identifier et choisir les entrepôts de données pertinents pour votre domaine de recherche](#1-identifier-et-choisir-les-entrepôts-de-données-pertinents-pour-votre-domaine-de-recherche)   
    - [Terminologie](#terminologie)   
       - [Données de recherche](#données-de-recherche)   
       - [Entrepôt de données](#entrepôt-de-données)   
@@ -19,22 +17,21 @@
       - [Identifier les critères importants pour vous et les hiérarchiser](#identifier-les-critères-importants-pour-vous-et-les-hiérarchiser)   
       - [Trouver un entrepôt de données avec re3data](#trouver-un-entrepôt-de-données-avec-re3data)   
    - [Outils complémentaires](#outils-complémentaires)   
-- [2.Trouver des jeux de données existants <!--15 min-->](#2trouver-des-jeux-de-données-existants-15-min)   
+- [2. Trouver des jeux de données existants](#2-trouver-des-jeux-de-données-existants)   
    - [Interroger directement un entrepôt de données](#interroger-directement-un-entrepôt-de-données)   
    - [Trouver des jeux de données en lien avec les publications](#trouver-des-jeux-de-données-en-lien-avec-les-publications)   
    - [Les moteurs de recherche spécialisés](#les-moteurs-de-recherche-spécialisés)   
-- [3. Citer les jeux de données <!--5 min-->](#3-citer-les-jeux-de-données-5-min)   
-- [Où les données sont-elles citées?](#où-les-données-sont-elles-citées)   
-- [Comment citer un jeu de données?](#comment-citer-un-jeu-de-données)   
-   - [Avec un logiciel de gestion bibliographique, Zotero](#avec-un-logiciel-de-gestion-bibliographique-zotero)   
-   - [Avec l'outil Citation Formatter fourni par DataCite](#avec-loutil-citation-formatter-fourni-par-datacite)   
+- [3. Citer les jeux de données](#3-citer-les-jeux-de-données)   
+   - [Où les données sont-elles citées?](#où-les-données-sont-elles-citées)   
+   - [Comment citer un jeu de données?](#comment-citer-un-jeu-de-données)   
+      - [Avec un logiciel de gestion bibliographique, Zotero](#avec-un-logiciel-de-gestion-bibliographique-zotero)   
+      - [Avec l'outil Citation Formatter fourni par DataCite](#avec-loutil-citation-formatter-fourni-par-datacite)   
 - [4. Déposer des données dans la base test de Zenodo, Zenodo sandbox](#4-déposer-des-données-dans-la-base-test-de-zenodo-zenodo-sandbox)   
-- [5. Conclusion - enjeux](#5-conclusion-enjeux)   
+- [5. Conclusion](#5-conclusion)   
    - [Les enjeux en image](#les-enjeux-en-image)   
    - [La grande image de la science ouverte](#la-grande-image-de-la-science-ouverte)   
 
 <!-- /MDTOC -->
-
 
 
 
@@ -48,7 +45,7 @@ Pouvez-vous noter des **exemples** et des types de données de recherche pertine
 
 Quels **modes de partage** des fichiers de données sont-ils utilisés dans votre domaine?
 
-## 1. Identifier et choisir les entrepôts de données pertinents pour son domaine de recherche <!--25 min-->
+## 1. Identifier et choisir les entrepôts de données pertinents pour votre domaine de recherche
 
 ### Terminologie
 
@@ -180,7 +177,7 @@ Pour certains entrepôts, il est possible de soumettre une demande de dépôt à
 Ce service diffère des 2 précédents dans la mesure où on ne spécifie pas de critères de choix.
 
 
-## 2.Trouver des jeux de données existants <!--15 min-->
+## 2. Trouver des jeux de données existants
 
 ![question](img/foster_icone_questions.png) Comment procédez-vous actuellement pour chercher des donnés existantes?
 
@@ -239,9 +236,9 @@ Une fois ce jeu de données identifié, considérez les points suivants.
 * Qu'en est-il de la licence de publication? Les conditions de **réutilisation** sont-elles claires?
 * Sauriez-vous comment **citer** ce jeu de données?
 
-## 3. Citer les jeux de données <!--5 min-->
+## 3. Citer les jeux de données
 
-## Où les données sont-elles citées?
+### Où les données sont-elles citées?
 
 De plus en plus d'éditeurs incitent les auteurs à citer les jeux de données au même titre que les articles dans leur bibliographie, dans une rubrique dédiée ou dans la bibliographie principale.
 
@@ -259,9 +256,9 @@ Power, A. M. et al. (2019). Field-recorded data on habitat, density, growth and 
 
 ![citation_donnees_biblio](img/citation_donnees_biblio.png)
 
-## Comment citer un jeu de données?
+### Comment citer un jeu de données?
 
-### Avec un logiciel de gestion bibliographique, Zotero
+#### Avec un logiciel de gestion bibliographique, Zotero
 
 * Enregistrer les jeux de données sous le type de document "Article de revue"
 * Spécifier : `type: dataset` dans le champ `Extra`
@@ -270,7 +267,7 @@ Power, A. M. et al. (2019). Field-recorded data on habitat, density, growth and 
 
 * Choisir un style bibliographique qui prend en charge le type de document "Dataset", par exemple [APA](http://owl.english.purdue.edu/owl/resource/560/01/) ou Vancouver
 
-### Avec l'outil Citation Formatter fourni par DataCite
+#### Avec l'outil Citation Formatter fourni par DataCite
 
 Ce service en ligne est accessible à l'adresse : https://citation.crosscite.org/
 
@@ -288,7 +285,7 @@ Etapes :
 * Créez-vous un compte ou identifiez-vous avec votre compte GitHub ou votre compte ORCID.
 * Utilisez l'un des jeux de données identifié au cours de l'atelier (lors du tour de table, de la recherche d'entrepôt ou de la recherche de jeu de données) et déposez-le.
 
-## 5. Conclusion - enjeux
+## 5. Conclusion
 
 Reprenons la conclusion de l'article
 
