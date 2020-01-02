@@ -1,3 +1,4 @@
+
 # Zenodo, Figshare, etc.: rechercher et partager des données de recherche grâce aux entrepôts de données
 
 
@@ -6,8 +7,9 @@
 <!-- MDTOC maxdepth:3 firsth1:0 numbering:0 flatten:0 bullets:1 updateOnSave:1 -->
 
 - [Sommaire](#sommaire)   
-- [0. Que sont pour vous les "données de recherche"?](#0-que-sont-pour-vous-les-données-de-recherche)   
-- [1. Identifier et choisir les entrepôts de données pertinents pour votre domaine de recherche](#1-identifier-et-choisir-les-entrepôts-de-données-pertinents-pour-votre-domaine-de-recherche)   
+- [0. Que sont pour vous les "données de recherche" et comment les partagez-vous?](#0-que-sont-pour-vous-les-données-de-recherche-et-comment-les-partagez-vous)   
+   - [Modes de partage des données de recherche](#modes-de-partage-des-données-de-recherche)   
+- [1. Identifier et choisir des entrepôts de données pertinents](#1-identifier-et-choisir-des-entrepôts-de-données-pertinents)   
    - [Terminologie](#terminologie)   
       - [Données de recherche](#données-de-recherche)   
       - [Entrepôt de données](#entrepôt-de-données)   
@@ -33,11 +35,11 @@
 
 <!-- /MDTOC -->
 
+<div style="page-break-after: always;"></div>
 
+## 0. Que sont pour vous les "données de recherche" et comment les partagez-vous?
 
-## 0. Que sont pour vous les "données de recherche"?
-
-![exe](img/foster_icone_exercises.png) Nous prenons **5 minutes** pour préparer ce tour de table.
+![exe](img/foster_icone_exercises.png) Nous prenons quelques minutes pour préparer ce tour de table.
 
 Pouvez-vous réfléchir à propos du dernier article que vous avez lu/écrit : quel était le matériel supplémentaire (tableaux, figures, etc.)?
 
@@ -45,7 +47,22 @@ Pouvez-vous noter des **exemples** et des types de données de recherche pertine
 
 Quels **modes de partage** des fichiers de données sont-ils utilisés dans votre domaine?
 
-## 1. Identifier et choisir les entrepôts de données pertinents pour votre domaine de recherche
+### Modes de partage des données de recherche
+
+<!-- à relire-->
+
+| Méthode       | Avantage     | Inconvénient     |
+| :------------- | :---------- | ----------- |
+|  Publier les données sur un **site web** (d'un projet, d'un laboratoire, etc.) | Les données sont facilement accessibles pour les autres </br> </br>DIssémination plus large de la recherche  | Requiert une maintenance de la part du groupe de recherche </br></br> Pas de contrôle sur qui accède aux données </br></br> Incapacité à attribuer un DOI ou un autre identifiant pérenne au jeu de données   |
+| Soumettre les données à une **revue** ou publier un **article de données** ou _data paper_ 	| Les données sont associées à l'article publié au sujet de ces données </br></br> Les données sont partagées avec les pairs | Les données peuvent ne pas donner lieu à un article mais devoir quand même être partagées </br></br> En fonction de la revue, l'accès peut être restreint aux chercheurs bénéficiant d'un abonnement à la revue|
+| Répondre aux **demandes** de données 	| Conserver le contrôle sur qui utilise les données 	| Accès très limité aux données </br></br> Peut ne pas être une méthode acceptable pour les agences de financement </br></br> Peut être chronophage	|
+| Déposer les données dans un **entrepôt de données** | En fonction des entrepôts, accès paramétrable : fermé >> restreint >> sous embargo >> ouvert </br></br> Ne requiert aucune maintenance par le groupe de recherche </br></br> Capacité à attribuer un DOI ou un autre identifiant pérenne au jeu de données </br></br> Les données sont partagées avec les pairs | Les limitations peuvent varier en fonction des entrepôts : soumission limitée à certains utilisateurs, soumission payante, nécessité de respecter un format de données et/ou de métadonnées, etc. |
+
+
+Adapté de : Llebot, C. Research Data Services : Sharing Your Data. _Oregon State University Libraries_. Repéré à https://guides.library.oregonstate.edu/research-data-services/data-sharing
+
+
+## 1. Identifier et choisir des entrepôts de données pertinents
 
 ### Terminologie
 
@@ -54,7 +71,7 @@ Quels **modes de partage** des fichiers de données sont-ils utilisés dans votr
 >
 > Data in the sense used here are all digitally available objects (simple or complex) that emerge or are the result of the research process.
 
-_On entend ici par données tous les objets (simples ou complexes) disponibles sous forme numérique qui émergent ou sont le résultat du processus de recherche_
+_On entend ici par données tous les objets (simples ou complexes) disponibles sous forme numérique qui émergent ou sont le résultat du processus de recherche._
 
 #### Entrepôt de données
 
@@ -95,9 +112,29 @@ En savoir plus sur la certification _CoreTrustSeal_ :
 
 RDA France. (2019). Entrepôts de données de confiance : Critères de conformité. Repéré à https://www.rd-alliance.org/system/files/documents/CoretrustsealFR.pdf
 
+* L'entrepôt gère-t-il différents **types d'accès**? Permet-il par exemple un accès restreint ou sous **embargo**?
 
-* L'entrepôt gère-t-il différents **types d'accès**? Permet-il par exemple un accès restreint ou sous embargo?
 * L'entrepôt prend-il en charge un **format de données** particulier?
+
+* Quelles sont les exigences ou possibilités en termes de **précision et structuration de la description des données déposées**? Devrez-vous ou pourrez-vous fournir des métadonnées riches? Voici quelques exemples de jeux de données, de la description la plus sommaire à la plus complète.
+
+**> Exemple 1a : dépôt dans [Zenodo](https://zenodo.org) - données liées à un article**
+
+Alccayhuaman, K. A. A. et al. (2018, 17 février). Biological and technical complications of tilted implants in comparison to straight implants supporting fixed dental prostheses : A systematic review and meta-analysis [Data set]. _Zenodo_. https://doi.org/10.5281/zenodo.1175004
+
+**> Exemple 1b : dépôt dans [Zenodo](https://zenodo.org) - versions multiples dont certaines sous embargo**
+
+Nath, E., Cannon, P., & Philipp, M. (2017, 4 octobre). The influence of social presence on facial affective responses to food images (FSC) [Data set]. _Zenodo_. https://doi.org/10.5281/zenodo.1001822
+
+
+**> Exemple 2 : dépôt dans [4TU.Centre for Research Data](https://data.4tu.nl/repository/)**
+
+Plomp, E., Von Holstein, I., Koornneef, J., & Davies, G. (2019). Neodymium and strontium isotope analysis of modern human dental enamel using Thermal Ionization Mass Spectrometry (TIMS) [Data set]. _4TU.Centre for Research Data_. https://doi.org/10.4121/uuid:d541a402-2701-47b2-ac6a-eaaa14c8c111
+
+**> Exemple 3 : dépôt dans [ACEAS Data Portal](http://aceas.tern.org.au/knb/) (ACEAS = Australian Centre for Ecological Analysis and Synthesis)**
+
+Haberle, S. et al. (2014). Weekly pollen count data for for the University of Tasmania, Hobart [Data set]. _ACEAS_. https://doi.org/10.4227/05/5344E9A41A124
+
 
 ##### Ressources complémentaires
 
@@ -124,9 +161,21 @@ Registry of Research Data Repositories. https://doi.org/10.17616/R3D // citation
 Il s'agit de la ressource de référence, indexant plus de 2000 entrepôts.
 
 On peut naviguer dans re3data par :
-* sujet,
-* type de données,
-* pays.
+* [sujet](https://www.re3data.org/browse/by-subject/),
+* [type de contenu](https://www.re3data.org/browse/by-content-type/),
+* [pays](https://www.re3data.org/browse/by-country/).
+
+![flèche](img/foster_icone_arrow.png) [Afficher la liste complète des entrepôts référencés dans re3data](https://www.re3data.org/search?query=)
+
+De nombreux filtres permettent ensuite d'affiner les listes de résultats, en fonction par exemple des critères suivants.
+
+* **Certificates** : par quelle certification l'entrepôt est-il qualifié?
+* **Accès** : gradient de valeurs de fermé à ouvert - se décompose en 3 types d'accès :
+  *  **Database access** : accès à l'entrepôt de données lui-même : sous quelles conditions un utilisateur peut-il accéder à la base de données en général?
+  * **Data access** : accès aux jeux de données déposés dans un entrepôt de données spécifique : sous quelles conditions un utilisateur peut-il accéder à un jeu de données?
+  * **Data upload** : accès à la soumission de données : sous quelles conditions un utilisateur peut-il soumettre des données ?
+* **Versioning** : les jeux de données peuvent-ils être versionnés?
+
 
 ![exe](img/foster_icone_exercises.png) Nous prenons **5 minutes** pour la recherche suivante.
 
@@ -136,7 +185,7 @@ Si vous ne trouvez pas d'entrepôt ou préférez vous concentrer sur des entrep�
 
 ### Outils complémentaires
 
-Des services d'aide au choix et à la décision ont été développés, principalement à partir des données de re3data, pour proposer des fonctionnalités supplémentaires.
+Des services d'aide au choix et à la décision ont été développés, principalement à partir des données de re3data, et proposent des fonctionnalités supplémentaires.
 
 ![gears](img/foster_icone_gears.png)
 
@@ -164,7 +213,7 @@ Voici deux exemples d'affirmation.
 
 **[Data Deposit Recommendation Service](https://ddrs-dev.dariah.eu/ddrs/)** : ce service est développé par [l'infrastructure DARIAH](https://www.dariah.eu/) et spécialisé pour les **sciences humaines**. Il utilise les données de re3data. 2 critères peuvent être spécifiés:
 
-* le pays - > choisir _European Union_ pour obtenir des réponses satisfaisantes
+* le pays - > choisir _European Union_ pour obtenir des réponses satisfaisantes,
 * la discipline.
 
 Pour certains entrepôts, il est possible de soumettre une demande de dépôt à partir de la fiche de cet entrepôt, par exemple [CLARIN-ERIC](https://ddrs-dev.dariah.eu/ddrs/selectRepository?id=100010209).
@@ -186,7 +235,7 @@ Ce service diffère des 2 précédents dans la mesure où on ne spécifie pas de
 
 Il s'agit de l'une des approches possibles : interroger directement un entrepôt disciplinaire de son domaine de recherche, ce qui peut permettre de bénéficier de fonctionnalités de recherche spécifiques.
 
-Cela rejoint les trucs 2 et 4 des trucs recensés ci-dessous.
+Cela rejoint les astuces 2 et 4 des 11 astuces recensées ci-dessous.
 
 Gregory, K. et al. (2018). Eleven quick tips for finding research data. _PLOS Computational Biology_, _14_(4), e1006038. https://doi.org/10.1371/journal.pcbi.1006038
 
@@ -227,7 +276,7 @@ Le principal moteur de recherche spécialisé est [DataCite Search](https://sear
 
 ![exe](img/foster_icone_exercises.png) Nous prenons **5 minutes** pour la recherche suivante.
 
-En utilisant Datacite Search, identifier un jeu de données qui vous semble pertinent.
+En utilisant Datacite Search, identifiez un jeu de données qui vous semble pertinent.
 
 Une fois ce jeu de données identifié, considérez les points suivants.
 
