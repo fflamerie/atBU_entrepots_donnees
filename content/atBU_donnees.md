@@ -4,34 +4,15 @@
 
 ## Sommaire
 
-<!-- MDTOC maxdepth:3 firsth1:0 numbering:0 flatten:0 bullets:1 updateOnSave:1 -->
+<!-- MDTOC maxdepth:1 firsth1:0 numbering:0 flatten:0 bullets:1 updateOnSave:1 -->
 
 - [Sommaire](#sommaire)   
 - [0. Que sont pour vous les "données de recherche" et comment les partagez-vous?](#0-que-sont-pour-vous-les-données-de-recherche-et-comment-les-partagez-vous)   
-   - [Modes de partage des données de recherche](#modes-de-partage-des-données-de-recherche)   
 - [1. Identifier et choisir des entrepôts de données pertinents](#1-identifier-et-choisir-des-entrepôts-de-données-pertinents)   
-   - [Terminologie](#terminologie)   
-      - [Données de recherche](#données-de-recherche)   
-      - [Entrepôt de données](#entrepôt-de-données)   
-   - [Quelle démarche pour identifier un entrepôt de données approprié?](#quelle-démarche-pour-identifier-un-entrepôt-de-données-approprié)   
-      - [Suivre les pratiques de votre communauté](#suivre-les-pratiques-de-votre-communauté)   
-      - [Suivre les recommandations ou obligations](#suivre-les-recommandations-ou-obligations)   
-      - [Identifier les critères importants pour vous et les hiérarchiser](#identifier-les-critères-importants-pour-vous-et-les-hiérarchiser)   
-      - [Trouver un entrepôt de données avec re3data](#trouver-un-entrepôt-de-données-avec-re3data)   
-   - [Outils complémentaires](#outils-complémentaires)   
 - [2. Trouver des jeux de données existants](#2-trouver-des-jeux-de-données-existants)   
-   - [Interroger directement un entrepôt de données](#interroger-directement-un-entrepôt-de-données)   
-   - [Trouver des jeux de données en lien avec les publications](#trouver-des-jeux-de-données-en-lien-avec-les-publications)   
-   - [Les moteurs de recherche spécialisés](#les-moteurs-de-recherche-spécialisés)   
 - [3. Citer les jeux de données](#3-citer-les-jeux-de-données)   
-   - [Où les données sont-elles citées?](#où-les-données-sont-elles-citées)   
-   - [Comment citer un jeu de données?](#comment-citer-un-jeu-de-données)   
-      - [Avec un logiciel de gestion bibliographique, Zotero](#avec-un-logiciel-de-gestion-bibliographique-zotero)   
-      - [Avec l'outil Citation Formatter fourni par DataCite](#avec-loutil-citation-formatter-fourni-par-datacite)   
 - [4. Déposer des données dans la base test de Zenodo, Zenodo sandbox](#4-déposer-des-données-dans-la-base-test-de-zenodo-zenodo-sandbox)   
 - [5. Conclusion](#5-conclusion)   
-   - [Les enjeux en image](#les-enjeux-en-image)   
-   - [La grande image de la science ouverte](#la-grande-image-de-la-science-ouverte)   
 
 <!-- /MDTOC -->
 
@@ -47,9 +28,9 @@ Pouvez-vous noter des **exemples** et des types de données de recherche pertine
 
 Quels **modes de partage** des fichiers de données sont-ils utilisés dans votre domaine?
 
-### Modes de partage des données de recherche
+🔇 Si vous n'avez pas de micro ou ne souhaitez pas prendre la parole, répondez dans la conversation Zoom.
 
-<!-- à relire-->
+### Modes de partage des données de recherche
 
 | Méthode       | Avantage     | Inconvénient     |
 | :------------- | :---------- | ----------- |
@@ -177,11 +158,13 @@ De nombreux filtres permettent ensuite d'affiner les listes de résultats, en fo
 * **Versioning** : les jeux de données peuvent-ils être versionnés?
 
 
-![exe](img/foster_icone_exercises.png) Nous prenons **5 minutes** pour la recherche suivante.
+![exe](img/foster_icone_exercises.png) Nous prenons quelques minutes  pour la recherche suivante.
 
 En filtrant la recherche sur les entrepôts intégrant la fonctionnalité d'**attribution de DOI**, trouvez-vous un entrepôt spécialisé dans votre domaine?
 
 Si vous ne trouvez pas d'entrepôt ou préférez vous concentrer sur des entrepôts généralistes, consultez les fiches de **Zenodo** et **B2SHARE**. Utiliseriez-vous ces services? Pourquoi?
+
+🔇 Si vous n'avez pas de micro ou ne souhaitez pas prendre la parole, répondez dans la conversation Zoom.
 
 ### Outils complémentaires
 
@@ -201,12 +184,23 @@ Sansone, S.-A. et al. (2019). FAIRsharing as a community approach to standards, 
 ![gears](img/foster_icone_gears.png)
 
 
-**[Decision aid data repositories (Univ.Utrecht)](https://www.uu.nl/en/research/research-data-management/tools-services/tools-for-storing-and-managing-data/decision-aid-data-repositories)** : sous la forme d'un formulaire web, l'utilisateur coche les cases correspondant aux affirmations pertinentes pour son cas, et le système lui propose ensuite les **3** entrepôts répondant le plus favorablement aux critères ainsi définis.
-NB : 9 services généralistes sont utilisés par le système :  [(DANS) EASY](https://easy.dans.knaw.nl/ui/home), [4TU.ResearchData](https://data.4tu.nl/), [DataverseNL](https://dataverse.nl/), [B2Share](https://b2share.eudat.eu/), [Zenodo](https://zenodo.org/), [Dryad](http://www.datadryad.org/), [Figshare](https://figshare.com/), [Open Science Framework (OSF)](https://osf.io/) et [Yoda](https://public.yoda.uu.nl/) (entrepôt de données institutionnel de l'univ. d'Utrecht)
+**[Data Repository Finder (univ. Utrecht)](https://tools.uu.nl/repository-decision-tool/)** se présente sous la forme d'un formulaire web. En fonction de la réponse "Oui" ou "Pas nécessairement" apportée par l'utilisateur aux 4 questions suivantes, les entrepôts proposés restent affichés ou deviennent grisés. Une brève fiche descriptive est associée à chaque entrepôt de données.
 
-Voici deux exemples d'affirmation.
-> - [ ] The data is a structured database, I would like the repository to support that.
-> - [ ]  Uploading a new version of the dataset should be straightforward.
+* **Questions**
+  * Are you looking for a repository managed by Utrecht University?
+  * Will you publish data under access restriction?
+  * Are you looking for a repository with the option to deposit for free?
+  * Do you wish to have the freedom to choose your own data usage licence?
+
+* **Entrepôts de données généralistes utilisés par ce service**
+  * [4TU.ResearchData](https://data.4tu.nl/)
+  * [(DANS) EASY](https://easy.dans.knaw.nl/ui/home)
+  * [DataverseNL](https://dataverse.nl/)
+  * [Dryad](http://www.datadryad.org/)
+  * [Mendeley Data](https://data.mendeley.com/)
+  * [Open Science Framework (OSF)](https://osf.io/)
+  * [Yoda](https://public.yoda.uu.nl/) (entrepôt de données institutionnel de l'univ. d'Utrecht)
+  * [Zenodo](https://zenodo.org/).
 
 ![gears](img/foster_icone_gears.png)
 
@@ -221,7 +215,7 @@ Pour certains entrepôts, il est possible de soumettre une demande de dépôt à
 ![gears](img/foster_icone_gears.png)
 
 
-**[DataCite Repository Selector](https://repositoryfinder.test.datacite.org/)** : ce service est développé dans le cadre du [projet Enabling FAIR Data](http://www.copdess.org/enabling-fair-data-project/), porté par la _Coalition for Publishing Data in the Earth and Space Sciences_. Il permet d'identifier un entrepôt référencé dans re3data ou parmi les 208 entrepôts sélectionnés par le projet.
+**[Repository Finder (DataCite)](https://repositoryfinder.datacite.org/)** : ce service est développé dans le cadre du [projet Enabling FAIR Data](http://www.copdess.org/enabling-fair-data-project/), porté par la _Coalition for Publishing Data in the Earth and Space Sciences_. Il permet d'identifier un entrepôt référencé dans re3data ou parmi les 208 entrepôts sélectionnés par le projet.
 
 Ce service diffère des 2 précédents dans la mesure où on ne spécifie pas de critères de choix.
 
@@ -235,7 +229,7 @@ Ce service diffère des 2 précédents dans la mesure où on ne spécifie pas de
 
 Il s'agit de l'une des approches possibles : interroger directement un entrepôt disciplinaire de son domaine de recherche, ce qui peut permettre de bénéficier de fonctionnalités de recherche spécifiques.
 
-Cela rejoint les astuces 2 et 4 des 11 astuces recensées ci-dessous.
+Cela rejoint les astuces 2, 4 et 8 des 11 astuces recensées ci-dessous.
 
 Gregory, K. et al. (2018). Eleven quick tips for finding research data. _PLOS Computational Biology_, _14_(4), e1006038. https://doi.org/10.1371/journal.pcbi.1006038
 
@@ -270,11 +264,17 @@ Dans le nouveau **[PubMed](https://www.ncbi.nlm.nih.gov/pubmed/?otool=ifruvsblib
 
 Dans **[Scopus](http://docelec.u-bordeaux.fr/login?url=http://www.scopus.com)**, il s'agit de l'encart _Related Research Data_, accessible depuis la notice d'un article en particulier. Cette fonctionnalité est donc très limitée, puisqu'elle ne permet pas de sélectionner un ensemble d'articles ayant des données associées.
 
+Le **type de publication** peut également être exploité comme critère de recherche ou de filtre. Il permet en effet d'identifier les articles de données, ou _data papers_. Les valeurs associées diffèrent en fonction des bases de données.
+* Scopus -> choisir la valeur _data paper_
+* PubMed -> choisir la valeur _dataset_
+
 ###  Les moteurs de recherche spécialisés
 
 Le principal moteur de recherche spécialisé est [DataCite Search](https://search.datacite.org).
 
-![exe](img/foster_icone_exercises.png) Nous prenons **5 minutes** pour la recherche suivante.
+ℹ️ Vous trouverez une présentation détaillée de DataCite et d'autres moteurs spécialisés dans le support de la formation [_Data sharing_ : trouver, réutiliser et citer des données de recherche ](https://github.com/fflamerie/ED_datasharing/blob/master/content/ED_datasharing_COURS.md) (formation du Collège des écoles doctorales de l'université de Bordeaux).
+
+![exe](img/foster_icone_exercises.png) Nous prenons quelques minutes pour la recherche suivante.
 
 En utilisant Datacite Search, identifiez un jeu de données qui vous semble pertinent.
 
