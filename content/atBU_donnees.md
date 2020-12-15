@@ -97,15 +97,21 @@ RDA France. (2019). Entrepôts de données de confiance : Critères de conform
 
 * L'entrepôt prend-il en charge un **format de données** particulier?
 
-* Quelles sont les exigences ou possibilités en termes de **précision et structuration de la description des données déposées**? Devrez-vous ou pourrez-vous fournir des métadonnées riches? Voici quelques exemples de jeux de données, de la description la plus sommaire à la plus complète.
+* Quelles sont les exigences ou possibilités en termes de **précision et structuration de la description des données déposées**? Devrez-vous ou pourrez-vous fournir des métadonnées riches? Voici quelques exemples de jeux de données, de la description la plus sommaire à la plus complète et la plus structurée.
 
-**> Exemple 1a : dépôt dans [Zenodo](https://zenodo.org) - données liées à un article**
+**> Exemple 1a : dépôt dans [Open Science Framework](https://osf.io) - données liées à un article**
 
-Alccayhuaman, K. A. A. et al. (2018, 17 février). Biological and technical complications of tilted implants in comparison to straight implants supporting fixed dental prostheses : A systematic review and meta-analysis [Data set]. _Zenodo_. https://doi.org/10.5281/zenodo.1175004
+Reynolds, N., & Green, C. (2019). Spatiotemporal modelling of radiocarbon dates using linear regression does not indicate a vector of demic dispersal associated with the earliest Gravettian assemblages in Europe [Data set]. _Open Science Framework_. https://doi.org/10.17605/OSF.IO/6XRTS
 
-**> Exemple 1b : dépôt dans [Zenodo](https://zenodo.org) - versions multiples dont certaines sous embargo**
+:point_right: Il s'agit des données liées à l'article suivant :
 
-Nath, E., Cannon, P., & Philipp, M. (2017, 4 octobre). The influence of social presence on facial affective responses to food images (FSC) [Data set]. _Zenodo_. https://doi.org/10.5281/zenodo.1001822
+Reynolds, N., & Green, C. (2019). Spatiotemporal modelling of radiocarbon dates using linear regression does not indicate a vector of demic dispersal associated with the earliest Gravettian assemblages in Europe. _Journal of Archaeological Science: Reports_, _27_, 101958. https://doi.org/10.1016/j.jasrep.2019.101958
+
+Depuis la page de cet article sur ScienceDirect, pouvez-vous accéder à ces données dans OSF? Comment?
+
+**> Exemple 1b : dépôt dans [Zenodo](https://zenodo.org) - données en accès restreint**
+
+Krause, T. (2018). Corpora used in the benchmarks of the PhD thesis « ANNIS : A graph-based query system for deeply annotated text corpora » [Data set]. _Zenodo_. https://doi.org/10.5281/zenodo.1161383
 
 
 **> Exemple 2 : dépôt dans [4TU.Centre for Research Data](https://data.4tu.nl/repository/)**
