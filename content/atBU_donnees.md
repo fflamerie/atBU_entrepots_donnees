@@ -103,7 +103,7 @@ RDA France. (2019). Entrepôts de données de confiance : Critères de conform
 
 Reynolds, N., & Green, C. (2019). Spatiotemporal modelling of radiocarbon dates using linear regression does not indicate a vector of demic dispersal associated with the earliest Gravettian assemblages in Europe [Data set]. _Open Science Framework_. https://doi.org/10.17605/OSF.IO/6XRTS
 
-:point_right: Il s'agit des données liées à l'article suivant :
+👉 Il s'agit des données liées à l'article suivant :
 
 Reynolds, N., & Green, C. (2019). Spatiotemporal modelling of radiocarbon dates using linear regression does not indicate a vector of demic dispersal associated with the earliest Gravettian assemblages in Europe. _Journal of Archaeological Science: Reports_, _27_, 101958. https://doi.org/10.1016/j.jasrep.2019.101958
 
