@@ -1,24 +1,26 @@
 
 # Zenodo, Figshare, etc.: rechercher et partager des données de recherche grâce aux entrepôts de données
 
-
 ## Sommaire
 
 <!-- MDTOC maxdepth:1 firsth1:0 numbering:0 flatten:0 bullets:1 updateOnSave:1 -->
 
 - [Sommaire](#sommaire)   
-- [0. Que sont pour vous les "données de recherche" et comment les partagez-vous?](#0-que-sont-pour-vous-les-données-de-recherche-et-comment-les-partagez-vous)   
-- [1. Identifier et choisir des entrepôts de données pertinents](#1-identifier-et-choisir-des-entrepôts-de-données-pertinents)   
-- [2. Trouver des jeux de données existants](#2-trouver-des-jeux-de-données-existants)   
-- [3. Citer les jeux de données](#3-citer-les-jeux-de-données)   
-- [4. Déposer des données dans la base test de Zenodo, Zenodo sandbox](#4-déposer-des-données-dans-la-base-test-de-zenodo-zenodo-sandbox)   
-- [5. Conclusion](#5-conclusion)   
+- [1. Introduction](#1-introduction)   
+- [2. Critères de choix d'un entrepôt de données](#2-critères-de-choix-dun-entrepôt-de-données)   
+- [3. Trouver un entrepôt de données généraliste](#3-trouver-un-entrepôt-de-données-généraliste)   
+- [4. Trouver un entrepôt de données spécialisé](#4-trouver-un-entrepôt-de-données-spécialisé)   
+- [5. Trouver des jeux de données existants](#5-trouver-des-jeux-de-données-existants)   
+- [6. Citer les jeux de données](#6-citer-les-jeux-de-données)   
+- [7. Conclusion](#7-conclusion)   
 
 <!-- /MDTOC -->
 
 <div style="page-break-after: always;"></div>
 
-## 0. Que sont pour vous les "données de recherche" et comment les partagez-vous?
+## 1. Introduction
+
+### Que sont pour vous les "données de recherche" et comment les partagez-vous?
 
 ![exe](img/foster_icone_exercises.png) Nous prenons quelques minutes pour préparer ce tour de table.
 
@@ -42,9 +44,6 @@ Quels **modes de partage** des fichiers de données sont-ils utilisés dans votr
 
 Adapté de : Llebot, C. Research Data Services : Sharing Your Data. _Oregon State University Libraries_. Repéré à https://guides.library.oregonstate.edu/research-data-services/data-sharing
 
-
-## 1. Identifier et choisir des entrepôts de données pertinents
-
 ### Terminologie
 
 #### Données de recherche
@@ -66,40 +65,19 @@ Ces deux définitions sont tirées du [glossaire](https://book.fosteropenscience
 
 Bezjak, S. et al. (2018). _Open Science Training Handbook_. Hannover : FOSTER Plus Consortium. Repéré à https://book.fosteropenscience.eu/
 
-
-### Quelle démarche pour identifier un entrepôt de données approprié?
+## 2. Critères de choix d'un entrepôt de données
 
 ![fair](img/foster_fair.png)
 
-![flèche](img/foster_icone_arrow.png) En fonction du contexte, les étapes suivantes pourront être combinées selon un ordre différent.
+![flèche](img/foster_icone_arrow.png) En fonction du contexte, les critères de choix peuvent différer et la démarche d'identification et de choix d'un entrepôt de données suivre différentes étapes.
 
-#### Suivre les pratiques de votre communauté
-Privilégier un entrepôt spécialisé pour votre discipline, ou l'entrepôt généraliste utilisé par votre communauté.
+### Exemples de jeux de données dans des entrepôts de données
 
-#### Suivre les recommandations ou obligations
+Quels critères pouvons-nous inférer des exemples ci-dessous?
 
-Ces recommandations ou ces obligations peuvent émaner de différentes parties prenantes.
+### Exemple 1
 
-* D'un financeur : [ERC - European Research Council](https://erc.europa.eu/sites/default/files/document/file/ERC_info_document-Open_Research_Data_and_Data_Management_Plans.pdf), [Fonds national suisse pour la recherche scientifique](http://www.snf.ch/SiteCollectionDocuments/FAIR_data_repositories_examples.pdf)
-* D'un éditeur : [PLoS](https://journals.plos.org/plosone/s/data-availability#loc-recommended-repositories), [Springer-Nature](https://www.springernature.com/gp/authors/research-data-policy/repositories/12327124)
-
-#### Identifier les critères importants pour vous et les hiérarchiser
-
-Voici quelques exemples de critère qui peuvent être pris en compte.
-
-* L'entrepôt est-il **certifié**?
-
-En savoir plus sur la certification _CoreTrustSeal_ :
-
-RDA France. (2019). Entrepôts de données de confiance : Critères de conformité. Repéré à https://www.rd-alliance.org/system/files/documents/CoretrustsealFR.pdf
-
-* L'entrepôt gère-t-il différents **types d'accès**? Permet-il par exemple un accès restreint ou sous **embargo**?
-
-* L'entrepôt prend-il en charge un **format de données** particulier?
-
-* Quelles sont les exigences ou possibilités en termes de **précision et structuration de la description des données déposées**? Devrez-vous ou pourrez-vous fournir des métadonnées riches? Voici quelques exemples de jeux de données, de la description la plus sommaire à la plus complète et la plus structurée.
-
-**> Exemple 1a : dépôt dans [Open Science Framework](https://osf.io) - données liées à un article**
+**Dépôt dans [Open Science Framework](https://osf.io)**
 
 Reynolds, N., & Green, C. (2019). Spatiotemporal modelling of radiocarbon dates using linear regression does not indicate a vector of demic dispersal associated with the earliest Gravettian assemblages in Europe [Data set]. _Open Science Framework_. https://doi.org/10.17605/OSF.IO/6XRTS
 
@@ -109,21 +87,88 @@ Reynolds, N., & Green, C. (2019). Spatiotemporal modelling of radiocarbon dates 
 
 Depuis la page de cet article sur ScienceDirect, pouvez-vous accéder à ces données dans OSF? Comment?
 
-**> Exemple 1b : dépôt dans [Zenodo](https://zenodo.org) - données en accès restreint**
+### Exemple 2
 
-Krause, T. (2018). Corpora used in the benchmarks of the PhD thesis « ANNIS : A graph-based query system for deeply annotated text corpora » [Data set]. _Zenodo_. https://doi.org/10.5281/zenodo.1161383
+**Dépôt dans [Zenodo](https://zenodo.org)**
+
+Reviers, N., Aline, R., & Vandekerckhove, R. (2017). Dutch Audio Description Corpus [Data set].  _Zenodo_. https://doi.org/10.5281/zenodo.1035175
 
 
-**> Exemple 2 : dépôt dans [4TU.Centre for Research Data](https://data.4tu.nl/repository/)**
+### Exemple 3 en spectométrie
+
+**Dépôt dans [4TU.Centre for Research Data](https://data.4tu.nl/repository/)**
 
 Plomp, E., Von Holstein, I., Koornneef, J., & Davies, G. (2019). Neodymium and strontium isotope analysis of modern human dental enamel using Thermal Ionization Mass Spectrometry (TIMS) [Data set]. _4TU.Centre for Research Data_. https://doi.org/10.4121/uuid:d541a402-2701-47b2-ac6a-eaaa14c8c111
 
-**> Exemple 3 : dépôt dans [ACEAS Data Portal](http://aceas.tern.org.au/knb/) (ACEAS = Australian Centre for Ecological Analysis and Synthesis)**
+### Exemple 3 en psychologie
+
+**Dépôt dans [UK Data Archive ReShare](https://reshare.ukdataservice.ac.uk)**
+
+Biggart, L. P. (2016). Emotional intelligence in social work [Data set].  _UK Data Archive_. UK Data Archive ReShare. https://doi.org/10.5255/UKDA-SN-852431
+
+
+### Exemple 4 en écologie
+
+**Dépôt dans [ACEAS Data Portal](http://aceas.tern.org.au/knb/) (ACEAS = Australian Centre for Ecological Analysis and Synthesis)**
 
 Haberle, S. et al. (2014). Weekly pollen count data for for the University of Tasmania, Hobart [Data set]. _ACEAS_. https://doi.org/10.4227/05/5344E9A41A124
 
+### Exemple 4 en linguistique
 
-##### Ressources complémentaires
+**Dépôt dans [TROLLing](https://dataverse.no/dataverse/trolling) (TROLLing = The Tromsø Repository of Language and Linguistics)**
+
+Rainsford, T. (2020). Table of transcribed forms for : Syllable Structure and Prosodic Words in Old French [Data set]. _The Tromsø Repository of Language and Linguistics (TROLLing)_. https://doi.org/10.18710/xymxpc
+
+
+### Identifier et hiérarchiser vos critères
+
+Voici quelques exemples de critère qui peuvent être pris en compte.
+
+_Le renvoi vers les exemples n'est pas exhaustif._
+
+* L'entrepôt est-il **certifié**?
+
+En savoir plus sur la certification _CoreTrustSeal_ :
+
+RDA France. (2019). Entrepôts de données de confiance : Critères de conformité. Repéré à https://www.rd-alliance.org/system/files/documents/CoretrustsealFR.pdf
+
+👉 exemples 4 en linguistique, 3 en spectométrie
+
+* L'entrepôt gère-t-il différents **types d'accès**? Permet-il par exemple un accès restreint ou sous **embargo**?
+
+👉 exemple 2
+
+* L'entrepôt prend-il en charge un **format de données** particulier?
+
+👉 exemple 3 en spectométrie
+
+* Quelles sont les exigences ou possibilités en termes de **précision et structuration de la description des données déposées**? Devrez-vous ou pourrez-vous fournir des métadonnées riches?
+
+👉 exemples 4
+
+Comme nous l'avons vu dans les exemples, les entrepôts de données fournissent des services variables et peuvent avoir différents niveaux d'exigence, concernant par exemple la description des données déposées. Cette description peut rester très sommaire ou au contraire devoir être très complète et structurée.
+
+### Critères et ressources complémentaires
+
+#### Suivre les pratiques de votre communauté
+
+Privilégier un entrepôt spécialisé pour votre discipline, ou l'entrepôt généraliste utilisé par votre communauté.
+
+#### Suivre les recommandations ou obligations
+
+Ces recommandations ou ces obligations peuvent émaner de différentes parties prenantes.
+
+#### D'un organisme de financement
+*  [ERC - European Research Council](https://erc.europa.eu/sites/default/files/document/file/ERC_info_document-Open_Research_Data_and_Data_Management_Plans.pdf) : liste commentée d'entrepôts spécialisés par discipline - p. 9 et suiv.
+* [Commission européenne](https://open-research-europe.ec.europa.eu/for-authors/data-guidelines) : liste d'entrepôts généralistes et spécialisés par discipline - ces _Data Guidelines_ comportent en outre des recommandations pour la préparation des données (notamment tabulaires).
+* [Fonds national suisse pour la recherche scientifique](http://www.snf.ch/fr/leFNS/points-de-vue-politique-de-recherche/open_research_data/Pages/depots-de-donnees.aspx) : liste d'entrepôts généralistes et spécialisés par discipline fréquemment utilisés par la communauté scientifique suisse  et qui remplissent les critères Open Research Data (ORD) du FNS.
+
+#### D'un éditeur
+* [PLoS](https://journals.plos.org/plosone/s/recommended-repositories) : liste d'entrepôts généralistes et spécialisés par discipline (peu adapté pour les SHS)
+* [Springer-Nature](https://www.springernature.com/gp/authors/research-data-policy/repositories/12327124)  : liste d'entrepôts généralistes et spécialisés par discipline (pas de rubriques _Humanities_, rubrique _Social sciences_ plus étoffée que celle de PLoS)
+* [Cambridge University Press](https://www.cambridge.org/core/services/authors/open-data/where-to-share-your-data) : sélection d'entrepôts généralistes, renvoi vers politique de chaque revue
+
+#### Ressources complémentaires
 
 DoRANum. (2018). Du choix de l’entrepôt au dépôt des données. _DoRANum_. Repéré à https://doranum.fr/depot-entrepots/choix-entrepot-depot-donnees/
 
@@ -140,14 +185,41 @@ _Pour chacune des questions, le guide définit 3 niveaux de capacité de service
 > 4.  will the repository sustain the data value?
 > 5.   will it support analysis and track data usage?
 
+## 3. Trouver un entrepôt de données généraliste
 
-#### Trouver un entrepôt de données avec re3data
+Vous souhaitez en savoir plus concernant un entrepôt de données généraliste recommandé par une revue ou un financeur? Vous souhaitez avoir une vue plus complète concernant les entrepôts de données généraliste?
+
+L'outil en ligne d'aide à la décision [Trouver un entrepôt de données](http://busec2.u-bordeaux.fr/aide-choix-entrepot) vous aide à identifier l'entrepôt de données généraliste qui réponde le mieux à vos besoins, à partir de la réponse aux 4 questions suivantes :
+
+* Allez-vous publier des données dont l'accès doit être restreint?
+* Recherchez-vous un entrepôt avec des options de dépôt gratuit?
+* Souhaitez-vous pouvoir définir librement les conditions d'utilisation de vos données?
+* Souhaitez-vous que votre dépôt de données soit relu avant d'être mis en ligne?
+
+Une brève fiche descriptive accompagne chacun des huit entrepôts de données comparés : Fighsare, , B2SHARE, ,  et Harvard Dataverse.
+
+* **Entrepôts de données généralistes utilisés par ce service**
+  * [4TU.ResearchData](https://data.4tu.nl/)
+  * [Figshare](https://figshare.com/)
+  * [Harvard Dataverse](https://dataverse.harvard.edu/)
+  * [Dryad](http://www.datadryad.org/)
+  * [Mendeley Data](https://data.mendeley.com/)
+  * [Open Science Framework (OSF)](https://osf.io/)
+  * [B2SHARE](https://b2share.eudat.eu/)
+  * [Zenodo](https://zenodo.org/)
+
+  ![exe](img/foster_icone_exercises.png) Nous prenons quelques minutes  pour que vous puissiez tester cet outil.
+
+## 4. Trouver un entrepôt de données spécialisé
+
+### Trouver un entrepôt de données avec re3data
 
 Registry of Research Data Repositories. https://doi.org/10.17616/R3D // citation simplifiée : re3data - https://www.re3data.org/
 
 Il s'agit de la ressource de référence, indexant plus de 2000 entrepôts.
 
 On peut naviguer dans re3data par :
+
 * [sujet](https://www.re3data.org/browse/by-subject/),
 * [type de contenu](https://www.re3data.org/browse/by-content-type/),
 * [pays](https://www.re3data.org/browse/by-country/).
@@ -168,18 +240,17 @@ De nombreux filtres permettent ensuite d'affiner les listes de résultats, en fo
 
 En filtrant la recherche sur les entrepôts intégrant la fonctionnalité d'**attribution de DOI**, trouvez-vous un entrepôt spécialisé dans votre domaine?
 
-Si vous ne trouvez pas d'entrepôt ou préférez vous concentrer sur des entrepôts généralistes, consultez les fiches de **Zenodo** et **B2SHARE**. Utiliseriez-vous ces services? Pourquoi?
-
 🔇 Si vous n'avez pas de micro ou ne souhaitez pas prendre la parole, répondez dans la conversation Zoom.
 
 ### Outils complémentaires
 
 Des services d'aide au choix et à la décision ont été développés, principalement à partir des données de re3data, et proposent des fonctionnalités supplémentaires.
 
+#### FAIRsharing
+
 ![gears](img/foster_icone_gears.png)
 
-
-**[FAIRsharing.org](https://fairsharing.org/)** :  répertorie non seulement des entrepôts mais également des standards, des méthodes, des vocabulaires, etc. Pour chaque ressource sont notamment spécifiés les critères suivants.
+[FAIRsharing.org](https://fairsharing.org/) répertorie non seulement des entrepôts mais également des standards, des méthodes, des vocabulaires, etc. Pour chaque ressource sont notamment spécifiés les critères suivants.
 * Le **statut** : en développement / opérationnel / incertain / déprécié
 * La **recommandation** : nom de l'éditeur, de la revue, etc. qui recommande
 
@@ -187,49 +258,27 @@ En savoir plus concernant FAIRsharing :
 
 Sansone, S.-A. et al. (2019). FAIRsharing as a community approach to standards, repositories and policies. _Nature Biotechnology_, _37_(4), 358‑367. https://doi.org/10.1038/s41587-019-0080-8
 
-![gears](img/foster_icone_gears.png)
-
-
-**[Data Repository Finder (univ. Utrecht)](https://tools.uu.nl/repository-decision-tool/)** se présente sous la forme d'un formulaire web. En fonction de la réponse "Oui" ou "Pas nécessairement" apportée par l'utilisateur aux 4 questions suivantes, les entrepôts proposés restent affichés ou deviennent grisés. Une brève fiche descriptive est associée à chaque entrepôt de données.
-
-* **Questions**
-  * Are you looking for a repository managed by Utrecht University?
-  * Will you publish data under access restriction?
-  * Are you looking for a repository with the option to deposit for free?
-  * Do you wish to have the freedom to choose your own data usage licence?
-
-* **Entrepôts de données généralistes utilisés par ce service**
-  * [4TU.ResearchData](https://data.4tu.nl/)
-  * [(DANS) EASY](https://easy.dans.knaw.nl/ui/home)
-  * [DataverseNL](https://dataverse.nl/)
-  * [Dryad](http://www.datadryad.org/)
-  * [Mendeley Data](https://data.mendeley.com/)
-  * [Open Science Framework (OSF)](https://osf.io/)
-  * [Yoda](https://public.yoda.uu.nl/) (entrepôt de données institutionnel de l'univ. d'Utrecht)
-  * [Zenodo](https://zenodo.org/).
+#### Data Deposit Recommendation Service
 
 ![gears](img/foster_icone_gears.png)
 
-
-**[Data Deposit Recommendation Service](https://ddrs-dev.dariah.eu/ddrs/)** : ce service est développé par [l'infrastructure DARIAH](https://www.dariah.eu/) et spécialisé pour les **sciences humaines**. Il utilise les données de re3data. 2 critères peuvent être spécifiés:
+[Data Deposit Recommendation Service](https://ddrs-dev.dariah.eu/ddrs/)  est développé par [l'infrastructure DARIAH](https://www.dariah.eu/) et spécialisé pour les **sciences humaines**. Il utilise les données de re3data. 2 critères peuvent être spécifiés:
 
 * le pays - > choisir _European Union_ pour obtenir des réponses satisfaisantes,
 * la discipline.
 
 Pour certains entrepôts, il est possible de soumettre une demande de dépôt à partir de la fiche de cet entrepôt, par exemple [CLARIN-ERIC](https://ddrs-dev.dariah.eu/ddrs/selectRepository?id=100010209).
 
+
+#### Repository Finder
+
 ![gears](img/foster_icone_gears.png)
 
-
-**[Repository Finder (DataCite)](https://repositoryfinder.datacite.org/)** : ce service est développé dans le cadre du [projet Enabling FAIR Data](http://www.copdess.org/enabling-fair-data-project/), porté par la _Coalition for Publishing Data in the Earth and Space Sciences_. Il permet d'identifier un entrepôt référencé dans re3data ou parmi les 208 entrepôts sélectionnés par le projet.
+[Repository Finder (DataCite)](https://repositoryfinder.datacite.org/) est développé dans le cadre du [projet Enabling FAIR Data](http://www.copdess.org/enabling-fair-data-project/), porté par la _Coalition for Publishing Data in the Earth and Space Sciences_. Il permet d'identifier un entrepôt référencé dans re3data ou parmi les 208 entrepôts sélectionnés par le projet.
 
 Ce service diffère des 2 précédents dans la mesure où on ne spécifie pas de critères de choix.
 
-
-## 2. Trouver des jeux de données existants
-
-![question](img/foster_icone_questions.png) Comment procédez-vous actuellement pour chercher des donnés existantes?
-
+## 5. Trouver des jeux de données existants
 
 ### Interroger directement un entrepôt de données
 
@@ -280,18 +329,7 @@ Le principal moteur de recherche spécialisé est [DataCite Search](https://sear
 
 ℹ️ Vous trouverez une présentation détaillée de DataCite et d'autres moteurs spécialisés dans le support de la formation [_Data sharing_ : trouver, réutiliser et citer des données de recherche ](https://github.com/fflamerie/ED_datasharing/blob/master/content/ED_datasharing_COURS.md) (formation du Collège des écoles doctorales de l'université de Bordeaux).
 
-![exe](img/foster_icone_exercises.png) Nous prenons quelques minutes pour la recherche suivante.
-
-En utilisant Datacite Search, identifiez un jeu de données qui vous semble pertinent.
-
-Une fois ce jeu de données identifié, considérez les points suivants.
-
-* Pensez-vous que ce jeu de données puisse vous être utile? Pourquoi?
-* Les **métadonnées** sont-elles suffisantes? La **documentation** (fichier README, etc.) vous paraît-elle suffisante?
-* Qu'en est-il de la licence de publication? Les conditions de **réutilisation** sont-elles claires?
-* Sauriez-vous comment **citer** ce jeu de données?
-
-## 3. Citer les jeux de données
+## 6. Citer les jeux de données
 
 ### Où les données sont-elles citées?
 
@@ -328,19 +366,7 @@ Ce service en ligne est accessible à l'adresse : https://citation.crosscite.org
 
 A partir d'un DOI et du choix d'un style bibliographique et de la langue, il génère automatiquement une citation correctement mise en forme.
 
-## 4. Déposer des données dans la base test de Zenodo, Zenodo sandbox
-
-![exe](img/foster_icone_exercises.png) Nous prenons **15 minutes** pour cette activité.
-
-Le dépôt dans Zenodo est très simple et rapide, peu de champs sont obligatoires.
-
-Il est de plus possible de se familiariser avec l'interface et ses fonctionnalités grâce à une base de teste, le bac à sable accessible à l'adresse suivante : https://sandbox.zenodo.org/
-
-Etapes :
-* Créez-vous un compte ou identifiez-vous avec votre compte GitHub ou votre compte ORCID.
-* Utilisez l'un des jeux de données identifié au cours de l'atelier (lors du tour de table, de la recherche d'entrepôt ou de la recherche de jeu de données) et déposez-le.
-
-## 5. Conclusion
+## 7. Conclusion
 
 Reprenons la conclusion de l'article
 
