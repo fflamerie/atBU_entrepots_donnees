@@ -69,7 +69,7 @@ Bezjak, S. et al. (2018). _Open Science Training Handbook_. Hannover : FOSTER P
 
 ![fair](img/foster_fair.png)
 
-![flèche](img/foster_icone_arrow.png) En fonction du contexte, les critères de choix peuvent différer et la démarche d'identification et de choix d'un entrepôt de données suivre différentes étapes.
+En fonction du contexte, les critères de choix peuvent différer et la démarche d'identification et de choix d'un entrepôt de données suivre différentes étapes.
 
 ### Exemples de jeux de données dans des entrepôts de données
 
@@ -77,48 +77,34 @@ Quels critères pouvons-nous inférer des exemples ci-dessous?
 
 ### Exemple 1
 
-**Dépôt dans [Open Science Framework](https://osf.io)**
-
-Reynolds, N., & Green, C. (2019). Spatiotemporal modelling of radiocarbon dates using linear regression does not indicate a vector of demic dispersal associated with the earliest Gravettian assemblages in Europe [Data set]. _Open Science Framework_. https://doi.org/10.17605/OSF.IO/6XRTS
-
-👉 Il s'agit des données liées à l'article suivant :
-
-Reynolds, N., & Green, C. (2019). Spatiotemporal modelling of radiocarbon dates using linear regression does not indicate a vector of demic dispersal associated with the earliest Gravettian assemblages in Europe. _Journal of Archaeological Science: Reports_, _27_, 101958. https://doi.org/10.1016/j.jasrep.2019.101958
-
-Depuis la page de cet article sur ScienceDirect, pouvez-vous accéder à ces données dans OSF? Comment?
-
-### Exemple 2
-
 **Dépôt dans [Zenodo](https://zenodo.org)**
 
 Reviers, N., Aline, R., & Vandekerckhove, R. (2017). Dutch Audio Description Corpus [Data set].  _Zenodo_. https://doi.org/10.5281/zenodo.1035175
 
 
-### Exemple 3 en spectométrie
+### Exemple 2 - spectrométrie
 
 **Dépôt dans [4TU.Centre for Research Data](https://data.4tu.nl/repository/)**
 
 Plomp, E., Von Holstein, I., Koornneef, J., & Davies, G. (2019). Neodymium and strontium isotope analysis of modern human dental enamel using Thermal Ionization Mass Spectrometry (TIMS) [Data set]. _4TU.Centre for Research Data_. https://doi.org/10.4121/uuid:d541a402-2701-47b2-ac6a-eaaa14c8c111
 
-### Exemple 3 en psychologie
+### Exemple 3 - psychologie
 
 **Dépôt dans [UK Data Archive ReShare](https://reshare.ukdataservice.ac.uk)**
 
-Biggart, L. P. (2016). Emotional intelligence in social work [Data set].  _UK Data Archive_. UK Data Archive ReShare. https://doi.org/10.5255/UKDA-SN-852431
+Biggart, L. P. (2016). Emotional intelligence in social work [Data set].  _UK Data Archive ReShare_. https://doi.org/10.5255/UKDA-SN-852431
 
-
-### Exemple 4 en écologie
-
-**Dépôt dans [ACEAS Data Portal](http://aceas.tern.org.au/knb/) (ACEAS = Australian Centre for Ecological Analysis and Synthesis)**
-
-Haberle, S. et al. (2014). Weekly pollen count data for for the University of Tasmania, Hobart [Data set]. _ACEAS_. https://doi.org/10.4227/05/5344E9A41A124
-
-### Exemple 4 en linguistique
+### Exemple 4 - linguistique
 
 **Dépôt dans [TROLLing](https://dataverse.no/dataverse/trolling) (TROLLing = The Tromsø Repository of Language and Linguistics)**
 
 Rainsford, T. (2020). Table of transcribed forms for : Syllable Structure and Prosodic Words in Old French [Data set]. _The Tromsø Repository of Language and Linguistics (TROLLing)_. https://doi.org/10.18710/xymxpc
 
+### Exemple 5 - écologie
+
+**Dépôt dans [ACEAS Data Portal](http://aceas.tern.org.au/knb/) (ACEAS = Australian Centre for Ecological Analysis and Synthesis)**
+
+Haberle, S. et al. (2014). Weekly pollen count data for for the University of Tasmania, Hobart [Data set]. _ACEAS_. https://doi.org/10.4227/05/5344E9A41A124
 
 ### Identifier et hiérarchiser vos critères
 
@@ -132,19 +118,19 @@ En savoir plus sur la certification _CoreTrustSeal_ :
 
 RDA France. (2019). Entrepôts de données de confiance : Critères de conformité. Repéré à https://www.rd-alliance.org/system/files/documents/CoretrustsealFR.pdf
 
-👉 exemples 4 en linguistique, 3 en spectométrie
+👉 exemples 2 et 3
 
 * L'entrepôt gère-t-il différents **types d'accès**? Permet-il par exemple un accès restreint ou sous **embargo**?
 
-👉 exemple 2
+👉 exemple 1
 
 * L'entrepôt prend-il en charge un **format de données** particulier?
 
-👉 exemple 3 en spectométrie
+👉 exemple 2
 
 * Quelles sont les exigences ou possibilités en termes de **précision et structuration de la description des données déposées**? Devrez-vous ou pourrez-vous fournir des métadonnées riches?
 
-👉 exemples 4
+👉 exemple 5
 
 Comme nous l'avons vu dans les exemples, les entrepôts de données fournissent des services variables et peuvent avoir différents niveaux d'exigence, concernant par exemple la description des données déposées. Cette description peut rester très sommaire ou au contraire devoir être très complète et structurée.
 
