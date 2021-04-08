@@ -11,8 +11,7 @@ Atelier d'1h organisé dans le cadre des "Ateliers des BU" de la Direction de la
 
 * Identifier et choisir les entrepôts de données pertinents pour son domaine de recherche
 * Trouver des jeux de données existants
-* Créditer les jeux de données
-* Déposer des données dans la base test de Zenodo, Zenodo sandbox
+* Citer des jeux de données
 
 
 </br>
