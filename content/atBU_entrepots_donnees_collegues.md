@@ -2,15 +2,14 @@
 
 Points abordés dans l'atelier à destination des lecteurs
 
-- [1. Introduction](https://github.com/fflamerie/atBU_entrepots_donnees/blob/master/content/atBU_donnees.md#1-introduction) 
-- [2. Critères de choix d'un entrepôt de données](https://github.com/fflamerie/atBU_entrepots_donnees/blob/master/content/atBU_donnees.md#2-critères-de-choix-dun-entrepôt-de-données)   
-- [3. Trouver un entrepôt de données généraliste](https://github.com/fflamerie/atBU_entrepots_donnees/blob/master/content/atBU_donnees.md#3-trouver-un-entrepôt-de-données-généraliste)   
-- [4. Trouver un entrepôt de données spécialisé](https://github.com/fflamerie/atBU_entrepots_donnees/blob/master/content/atBU_donnees.md#4-trouver-un-entrepôt-de-données-spécialisé)   
-- [5. Trouver des jeux de données existants](https://github.com/fflamerie/atBU_entrepots_donnees/blob/master/content/atBU_donnees.md#5-trouver-des-jeux-de-données-existants)   
-- [6. Citer les jeux de données](https://github.com/fflamerie/atBU_entrepots_donnees/blob/master/content/atBU_donnees.md#6-citer-les-jeux-de-données)   
-- [7. Conclusion](https://github.com/fflamerie/atBU_entrepots_donnees/blob/master/content/atBU_donnees.md#7-conclusion)   
+ 1. Introduction
+ 2. Critères de choix d'un entrepôt de données
+ 3. Trouver un entrepôt de données généraliste
+ 4. Trouver un entrepôt de données spécialisé
+ 5. Trouver des jeux de données existants 
+ 6. Citer les jeux de données 
+ 7. Conclusion
 
-:bookmark_tabs: Consulter le support de l'atelier [au format HTML adapté pour une lecture en ligne](https://github.com/fflamerie/atBU_entrepots_donnees/blob/master/content/atBU_donnees.md) - [au format PDF](https://github.com/fflamerie/atBU_entrepots_donnees/blob/master/content/atBU_donnees.pdf)
 
 ## Exemples
 
