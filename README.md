@@ -8,7 +8,7 @@ Atelier d'1h organisé dans le cadre des "Ateliers des BU" de la Direction de la
 
 * [Zenodo, Figshare, etc.: rechercher et partager des données de recherche grâce aux entrepôts de données - SCIENCES DE LA VIE ET DE LA SANTE](https://github.com/fflamerie/atBU_entrepots_donnees/blob/master/content/atBU_entrepots_donnees_SVS.pdf)
 * [Zenodo, Figshare, etc.: rechercher et partager des données de recherche grâce aux entrepôts de données - SCIENCES ET TECHNIQUES](https://github.com/fflamerie/atBU_entrepots_donnees/blob/master/content/atBU_entrepots_donnees_ST.pdf) 
-* [Zenodo, Figshare, etc.: rechercher et partager des données de recherche grâce aux entrepôts de données - SCIENCES HUMAINES]- 🔗 à venir
+* [Zenodo, Figshare, etc.: rechercher et partager des données de recherche grâce aux entrepôts de données - SCIENCES HUMAINES](https://github.com/fflamerie/atBU_entrepots_donnees/blob/master/content/atBU_entrepots_donnees_SH.pdf)
 
 ## Programme
 
